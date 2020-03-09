@@ -35,7 +35,7 @@
 * Maven私服jar上传与下载
 * 
 ## Screenshots
-![image](image/image.png)
+![image](image.png)
 ## Technologies
 * Maven
 * Spring
