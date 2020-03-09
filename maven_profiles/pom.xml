@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.maven.core</groupId>
+    <artifactId>maven_profiles</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <profiles>
+        <!--  定义开发dev、部署prod、测试test环境      -->
+        <profile>
+            <!--不同环境Profile的唯一id-->
+            <id>dev</id>
+            <properties>
+                <!--profiles.active是自定义的字段（名字随便起），自定义字段可以有多个-->
+                <!-- 每个环境的值不同。当我们打包项目时，激活不同的环境，profiles.active字段就会被赋予不同的值 -->
+                <!--
+                profiles.active字段可以应用到许多地方，及其灵活。可以在配置文件里被引用；
+
+                也可以结合pom文件里的resource和filter属性，作为文件名的一部分或者文件夹名的一部分，
+                -->
+                <profiles.active>dev</profiles.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <profiles.active>prod</profiles.active>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <profiles.active>test</profiles.active>
+            </properties>
+        </profile>
+    </profiles>
+</project>

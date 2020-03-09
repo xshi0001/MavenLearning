@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generatedClassPathList">
+          <list>
+            <option value="D:\BaiduNetdiskDownload\09-Maven项目管理工具\code\maven_java\src\main\java\com\itheima\domain" />
+          </list>
+        </option>
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

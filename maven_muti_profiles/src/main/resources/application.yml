@@ -1,0 +1,11 @@
+# 主配置文件主要用来存放公共设置，不受环境配置影响
+server:
+  port: 8081 # 指定端口号
+  servlet:
+    context-path: /server
+spring:
+  profiles:
+    active: dev #'@profiles.active@' #此处由maven的环境选择决定,
+
+mybatis:
+  mapper-locations: classpath:com.maven.core.profiles.mapper/*.xml

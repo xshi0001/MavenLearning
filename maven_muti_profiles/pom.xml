@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.maven.core</groupId>
+    <artifactId>maven_muti_profiles</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>maven_muti_profiles</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <profiles>
+        <!--      Maven 也提供了 Profile 支持，它允许我们在 pom.xml 中定义多个 Profile ，
+        每个 profile 可以指定自己的一些配置、依赖、触发条件等-->
+        <profile>
+            <!--不同环境Profile的唯一id-->
+            <id>dev</id>
+            <properties>
+                <!--profiles.active是自定义的字段，自定义字段可以有多个-->
+                <profiles.active>dev</profiles.active>
+                <!--profiles.active是自定义的字段（名字随便起），自定义字段可以有多个-->
+                <!-- 每个环境的值不同。当我们打包项目时，激活不同的环境，profiles.active字段就会被赋予不同的值 -->
+                <!--
+                profiles.active字段可以应用到许多地方，及其灵活。可以在配置文件里被引用；
+
+                也可以结合pom文件里的resource和filter属性，作为文件名的一部分或者文件夹名的一部分，
+                -->
+                <!--这个字段表示默认激活-->
+                <activeByDefault>true</activeByDefault>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <profiles.active>prod</profiles.active>
+            </properties>
+            <!--activation用来指定激活方式，可以根据jdk环境，环境变量，文件的存在或缺失-->
+            <activation>
+            </activation>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <profiles.active>test</profiles.active>
+            </properties>
+        </profile>
+    </profiles>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <!--        虽然配置了三种环境问题，但是不够优雅，
+        还有一些值得优化的地方，比如打包出的配置文件有四个、
+        每次需要手动修改主配置文件的环境信息等-->
+
+        <resources>
+            <!--     在进行打包的时候，我们并不需要把dev或者test等配置文件打包进行，所有我们在打包的时候进行如下配置-->
+            <resource>
+                <directory>src/main/resources/</directory>
+                <!--先排除所有的配置文件-->
+                <excludes>
+                    <exclude>application*.yml</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <!--这里是关键！ 根据不同的环境，把对应文件夹里的配置文件打包-->
+                <directory>src/main/resources/</directory>
+                <!--引入所需环境的配置文件-->
+                <includes>
+                    <include>application.yml</include>
+                    <!--如果有其他定义通用文件，需要包含进来-->
+                    <!--<include>messages/*</include>-->
+                    <include>application-${profiles.active}.yml</include>
+
+                </includes>
+
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

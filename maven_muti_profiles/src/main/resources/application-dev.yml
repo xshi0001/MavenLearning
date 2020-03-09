@@ -1,0 +1,10 @@
+spring: # 主要用来存放不同环境差异化配置，包括ftp地址、数据库连接等
+  profiles: dev
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.130.37:3306/HeiMa?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
