@@ -2,65 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="857c6bfa-c25a-46b9-b9c3-75e7fd496ec4" name="Default Changelist" comment="SSM - maven 多模块开发demo">
-      <change afterPath="$PROJECT_DIR$/../.idea/hdfsnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/markdown-doclet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/markdown-history.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/pegdown-doclet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_muti_profiles/src/main/java/com/maven/core/profiles/control/UserControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_muti_profiles/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_muti_profiles/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_muti_profiles/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_muti_profiles/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_muti_profiles/src/test/java/com/maven/core/profiles/mapper/UserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/hdfsnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/markdown-doclet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/pegdown-doclet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/maven_profiles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_profiles/src/main/java/com/maven/core/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/java/com/itheima/ssm/control/ItemsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/java/com/itheima/ssm/service/ItemsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/java/com/itheima/ssm/service/impl/ItemsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/webapp/WEB-INF/pages/itemDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/test/java/com/itheima/ssm/mapper/ItemsMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven_ssm/src/test/java/com/itheima/ssm/service/impl/ItemsServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/.idea/markdown-navigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/src/main/java/com/itheima/ssm/GeneratorSqlmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/src/main/java/com/itheima/ssm/GeneratorSqlmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_ssm/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm/target/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven_web2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_web/maven_web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_web/src/main/java/com/itheima/servlet/MyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_web/src/main/webapp/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_web/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,26 +27,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maven_dao/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="14" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maven_webapp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="38" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="76">
+              <first_editor relative-caret-position="703">
                 <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="70" selection-end-column="76" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState>
                   <previewPanelState version="2.9.0">
-                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:967}}</jsState>
+                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:795}}</jsState>
                   </previewPanelState>
                 </markdownNavigatorState>
               </second_editor>
@@ -205,11 +174,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="y" value="451" />
-    <option name="width" value="2321" />
-    <option name="height" value="851" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2551" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,9 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,126 +197,6 @@
             <path>
               <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
               <item name="maven_webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,30 +227,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_muti_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -412,7 +242,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maven_ssm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -640,6 +470,7 @@
       <updated>1583675755034</updated>
       <workItem from="1583675760207" duration="4849000" />
       <workItem from="1583712543198" duration="7160000" />
+      <workItem from="1583808770155" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="SSM - maven 多模块开发demo">
       <created>1583680957498</created>
@@ -652,12 +483,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12009000" />
+    <option name="totallyTimeSpent" value="12674000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="451" width="2321" height="851" extended-state="0" />
+    <frame x="2553" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="2258" y="107" width="521" height="901" id="Project" order="0" sideWeight="0.5014006" visible="true" weight="0.19681557" />
+      <window_info active="true" content_ui="combo" x="2258" y="107" width="521" height="901" id="Project" order="0" sideWeight="0.5014006" visible="true" weight="0.30093834" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -751,12 +583,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maven_dao/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/maven_dao/src/main/resources/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -779,14 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_webapp/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -815,20 +639,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maven_service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maven_webapp/src/main/resources/applicationContext-control.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -837,28 +653,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/maven_dao/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="76">
+          <first_editor relative-caret-position="703">
             <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="70" selection-end-column="76" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState>
               <previewPanelState version="2.9.0">
-                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:967}}</jsState>
+                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:795}}</jsState>
               </previewPanelState>
             </markdownNavigatorState>
           </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven_dao/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="266">
+          <caret line="14" column="14" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="38" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
