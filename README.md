@@ -38,7 +38,7 @@ To-do list:
 ## Status
 Project is: _in progress_
 
-## Refences&Further Resources
+## References&Further Resources
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
